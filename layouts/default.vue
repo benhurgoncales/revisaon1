@@ -14,8 +14,13 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 Home
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
-                Sobre
+
+            <b-navbar-item tag="router-link" :to="{ path: '/marketplace' }">
+                Marketplace
+            </b-navbar-item>
+            
+            <b-navbar-item tag="router-link" :to="{ path: '/classificado' }">
+                Classificado
             </b-navbar-item>
         </template>
 
